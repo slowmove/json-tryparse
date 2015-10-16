@@ -1,6 +1,6 @@
 {
   "name": "json-tryparse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small extension of the native JSON class to have methods that can handle a parse or stringify even if the object already are one or another.",
   "main": "index.js",
   "scripts": {
