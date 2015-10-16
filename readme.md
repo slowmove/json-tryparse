@@ -1,6 +1,8 @@
 Json TryParse
 ===
 
+``` npm install json-tryparse ```
+
 A small extension of the native JSON class to have methods that can handle a parse or stringify even if the object already are one or another.
 
 ## Background
@@ -10,6 +12,10 @@ In projects where there are several developers working we've often been in situa
 To be able to handle this I've implemented a simple extension of the native JSON class.
 
 ## Usage
+
+```javascript
+require('json-tryparse');
+```
 
 ### Parsing to object
 
