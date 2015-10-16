@@ -1,0 +1,14 @@
+{
+  "name": "json-tryparse",
+  "version": "1.0.0",
+  "description": "A small extension of the native JSON class to have methods that can handle a parse or stringify even if the object already are one or another.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "Erik Johansson",
+  "license": "ISC"
+}
