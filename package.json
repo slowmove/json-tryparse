@@ -1,7 +1,7 @@
 {
   "name": "json-tryparse",
   "version": "1.0.2",
-  "description": "A small extension of the native JSON class to have methods that can handle a parse or stringify even if the object already are one or another.",  
+  "description": "A small extension of the native JSON class to have methods that can handle a parse or stringify even if the object already are one or another.",
   "authors": [
     "Erik Johansson <erik.johansson87@gmail.com> (https://github.com/slowmove)"
   ],
@@ -13,5 +13,12 @@
     "json"
   ],
   "license": "ISC",
-  "main": "index.js"
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
 }
