@@ -1,6 +1,6 @@
 {
   "name": "json-tryparse",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small extension of the native JSON class to have methods that can handle a parse or stringify even if the object already are one or another.",
   "authors": [
     "Erik Johansson <erik.johansson87@gmail.com> (https://github.com/slowmove)"
