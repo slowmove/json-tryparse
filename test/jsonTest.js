@@ -14,6 +14,9 @@ describe('Json', function() {
         it('Should return the object trying to parse a stringified json', function() {
             assert.isObject(JSON.tryParse(strObj));
         });
+        it('Should cause error if trying to parse a string which is not a stringified object', function() {
+            assert.isNotObject(JSON.tryParse("not a stringified object"));
+        });
     });
     describe('tryStringify', function() {
         it('Should return the stringified object even if already stringified', function() {
