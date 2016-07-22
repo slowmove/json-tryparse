@@ -1,5 +1,6 @@
 Json TryParse
 ===
+[![Build Status](https://travis-ci.org/slowmove/json-tryparse.svg?branch=master)](https://travis-ci.org/slowmove/json-tryparse)
 
 ``` npm install json-tryparse ```
 
@@ -24,7 +25,7 @@ Instead of
 ```javascript
 JSON.parse(variable);
 ```
-use 
+use
 
 ```javascript
 JSON.tryParse(variable);
@@ -34,7 +35,7 @@ JSON.tryParse(variable);
 
 Instead of
 
-```javascript 
+```javascript
 JSON.stringify(variable);
 ```
 use
@@ -42,3 +43,7 @@ use
 ```javascript
 JSON.tryStringify(variable);
 ```
+
+### Run tests
+
+```npm test```
